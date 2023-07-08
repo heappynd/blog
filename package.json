@@ -2,17 +2,24 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "",
-  "private": true,
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heappynd/blog.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "vitepress": "1.0.0-alpha.75"
+  "bugs": {
+    "url": "https://github.com/heappynd/blog/issues"
+  },
+  "homepage": "https://github.com/heappynd/blog#readme",
+  "dependencies": {
+    "vitepress": "^1.0.0-beta.5"
   }
 }

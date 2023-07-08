@@ -1,25 +1,32 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: VitePress
+titleTemplate: Vite & Vue Powered Static Site Generator
+
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: VitePress
+  text: Vite & Vue Powered Static Site Generator
+  tagline: Simple, powerful, and fast. Meet the modern SSG framework you've always wanted.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /guide/what-is-vitepress
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: View on GitHub
+      link: https://github.com/vuejs/vitepress
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 📝
+    title: Focus on Your Content
+    details: Effortlessly create beautiful documentation sites with just markdown.
+  - icon: 😊
+    title: Enjoy the Vite DX
+    details: Instant server start, lightning fast hot updates, and leverage Vite ecosystem plugins.
+  - icon: 😍
+    title: Customize with Vue
+    details: Use Vue syntax and components directly in markdown, or build custom themes with Vue.
+  - icon: 🚀
+    title: Ship Fast Sites
+    details: Fast initial load with static HTML, fast post-load navigation with client-side routing.
 ---
-
