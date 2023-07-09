@@ -9,6 +9,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Install", link: "/install" },
+      { text: "Docker", link: "/docker" },
     ],
 
     // sidebar: [
