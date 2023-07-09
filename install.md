@@ -13,6 +13,10 @@ wsl --list --verbose
 wsl --unregister <DistributionName>
 ```
 
+## Ubuntu 软件仓库镜像
+
+[Ubuntu 软件仓库镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)
+
 ## 更新和升级包
 
 ```bash
