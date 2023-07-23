@@ -12,6 +12,7 @@ export default defineConfig({
       { text: "Install", link: "/install" },
       { text: "Docker", link: "/docker" },
       { text: "Bookmarks", link: "/bookmarks" },
+      { text: "Algorithm", link: "/algorithm" },
     ],
 
     // sidebar: [
