@@ -23,23 +23,29 @@
 8. [Redux](https://redux.js.org/)
 9. [styled-components](https://styled-components.com/)
 
+## 脚手架
+
+1. [SBoudrias/Inquirer.js](https://github.com/SBoudrias/Inquirer.js)
+2. [chalk/chalk](https://github.com/chalk/chalk)
+3. [sindresorhus/ora](https://github.com/sindresorhus/ora)
+4. [sindresorhus/execa](https://github.com/sindresorhus/execa)
+5. [tj/commander.js](https://github.com/tj/commander.js)
+
 ## 后端相关 （Node）
 
-1. https://github.com/Automattic/mongoose
-2. https://github.com/auth0/node-jsonwebtoken
-3. https://github.com/expressjs/body-parser
-4. https://github.com/node-formidable/formidable
-5. https://github.com/expressjs/cookie-parser
-6. https://github.com/mde/ejs
-7. https://github.com/prisma/prisma
-8. https://expressjs.com/
-9. https://koajs.com/
-10. https://socket.io/zh-CN/
-11. https://github.com/chalk/chalk
-12. https://github.com/tj/commander.js
-13. https://github.com/typicode/json-server
-14. https://www.mongodb.com/
-15. https://github.com/expressjs/session
+1.  https://www.mongodb.com/
+2. [expressjs/express](https://github.com/expressjs/express)
+3. [expressjs/session](https://github.com/expressjs/session)
+4. [expressjs/body-parser](https://github.com/expressjs/body-parser)
+5. [expressjs/cookie-parser](https://github.com/expressjs/cookie-parser)
+6. [Automattic/mongoose](https://github.com/Automattic/mongoose)
+7. [auth0/node-jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)
+8. [node-formidable/formidable](https://github.com/node-formidable/formidable)
+9. [mde/ejs](https://github.com/mde/ejs)
+10. [prisma/prisma](https://github.com/prisma/prisma)
+11. [typicode/json-server](https://github.com/typicode/json-server)
+12. [koajs/koa](https://github.com/koajs/koa)
+13. [socketio/socket.io](https://github.com/socketio/socket.io)
 
 ## Lib
 

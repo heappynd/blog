@@ -32,6 +32,6 @@ export default defineConfig({
     outline: {
       level: [2, 3],
     },
-    externalLinkIcon: true,
+    // externalLinkIcon: true,
   },
 });
