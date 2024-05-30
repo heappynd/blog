@@ -1,0 +1,37 @@
+export default [
+  ["axios/axios", "nuysoft/Mock", "yiminghe/async-validator", "iamkun/dayjs"],
+  ["babel/babel", "rollup/rollup", "evanw/esbuild"],
+  ["antfu/ni", "isaacs/rimraf"],
+  [
+    "ai/nanoid",
+    "antfu/icones",
+    "coder/code-server",
+    "pillarjs/path-to-regexp",
+    "glideapps/quicktype",
+    "xtermjs/xterm.js",
+  ],
+  [
+    "auth0/node-jsonwebtoken",
+    "typicode/json-server",
+    "node-formidable/formidable",
+    "mde/ejs",
+    "socketio/socket.io",
+    "Automattic/mongoose",
+    "prisma/prisma",
+    "koajs/koa",
+    "expressjs/express",
+  ],
+  [
+    "unjs/consola",
+    "sindresorhus/ora",
+    "sindresorhus/execa",
+    "tj/commander.js",
+    "chalk/chalk",
+    "SBoudrias/Inquirer.js",
+  ],
+  [
+    "Azure/fetch-event-source",
+    "pillarjs/path-to-regexp",
+    "trivago/prettier-plugin-sort-imports",
+  ],
+];
