@@ -3,14 +3,14 @@
     <a
       v-for="mark in marks"
       :key="mark"
-      style="border: 1px dashed white"
       :href="'https://github.com/' + mark"
       target="_blank"
     >
-      <img
-        :src="`https://socialify.git.ci/${mark}/image?description=1&language=1&name=1&stargazers=1&theme=Auto`"
+      <!-- <img
+        :src="`https://socialify.git.ci/${mark}/image?description=1&owner=1&language=1&name=1&stargazers=1&theme=Auto`"
         :alt="mark"
-      />
+      /> -->
+      {{ getName(mark) }}
     </a>
   </div>
 </template>
@@ -19,6 +19,11 @@
 import { ref } from "vue";
 
 defineProps<{ marks: string[] }>();
+
+function getName(orignName: string) {
+  const [owner, name] = orignName.split("/");
+  return owner === name ? name : orignName;
+}
 </script>
 
 <style>

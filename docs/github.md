@@ -37,3 +37,11 @@ import marks from './components/marks'
 ## 其他
 
 <GitMarks :marks="marks[6]" />
+
+## Vue
+
+<GitMarks :marks="marks[7]" />
+
+## React
+
+<GitMarks :marks="marks[8]" />
